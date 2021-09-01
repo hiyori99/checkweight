@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49DECC077A76C3C4297CD94E /* Pods_checkweight_checkweightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA7EACB27961FEEF2636CBF /* Pods_checkweight_checkweightUITests.framework */; };
+		60B8F59226D7ECA700336E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8F59126D7ECA700336E4B /* AppDelegate.swift */; };
+		60B8F59426D7ECA700336E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8F59326D7ECA700336E4B /* SceneDelegate.swift */; };
+		60B8F59626D7ECA700336E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8F59526D7ECA700336E4B /* ViewController.swift */; };
+		60B8F59926D7ECA700336E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B8F59726D7ECA700336E4B /* Main.storyboard */; };
+		60B8F59B26D7ECAB00336E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B8F59A26D7ECAB00336E4B /* Assets.xcassets */; };
+		60B8F59E26D7ECAB00336E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B8F59C26D7ECAB00336E4B /* LaunchScreen.storyboard */; };
+		60B8F5A926D7ECAB00336E4B /* checkweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8F5A826D7ECAB00336E4B /* checkweightTests.swift */; };
+		60B8F5B426D7ECAB00336E4B /* checkweightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B8F5B326D7ECAB00336E4B /* checkweightUITests.swift */; };
+		74FBAA4F85A6FD48B3D64D4E /* Pods_checkweightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216BD765F56BA2EB90967463 /* Pods_checkweightTests.framework */; };
+		96DC004ACD61CFCB87A764EA /* Pods_checkweight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE56A26CFB50E93AFE7A0F8 /* Pods_checkweight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B8F5A526D7ECAB00336E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B8F58626D7ECA700336E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B8F58D26D7ECA700336E4B;
+			remoteInfo = checkweight;
+		};
+		60B8F5B026D7ECAB00336E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B8F58626D7ECA700336E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B8F58D26D7ECA700336E4B;
+			remoteInfo = checkweight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		216BD765F56BA2EB90967463 /* Pods_checkweightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkweightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E01F31658119DDB97D4B82 /* Pods-checkweight-checkweightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweight-checkweightUITests.release.xcconfig"; path = "Target Support Files/Pods-checkweight-checkweightUITests/Pods-checkweight-checkweightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60B8F58E26D7ECA700336E4B /* checkweight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkweight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B8F59126D7ECA700336E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B8F59326D7ECA700336E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60B8F59526D7ECA700336E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B8F59826D7ECA700336E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B8F59A26D7ECAB00336E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B8F59D26D7ECAB00336E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B8F59F26D7ECAB00336E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B8F5A426D7ECAB00336E4B /* checkweightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkweightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B8F5A826D7ECAB00336E4B /* checkweightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkweightTests.swift; sourceTree = "<group>"; };
+		60B8F5AA26D7ECAB00336E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B8F5AF26D7ECAB00336E4B /* checkweightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkweightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B8F5B326D7ECAB00336E4B /* checkweightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkweightUITests.swift; sourceTree = "<group>"; };
+		60B8F5B526D7ECAB00336E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674703D1EE1F4A2BB39F5505 /* Pods-checkweightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweightTests.release.xcconfig"; path = "Target Support Files/Pods-checkweightTests/Pods-checkweightTests.release.xcconfig"; sourceTree = "<group>"; };
+		87D9144DE441FDC482B99878 /* Pods-checkweight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweight.release.xcconfig"; path = "Target Support Files/Pods-checkweight/Pods-checkweight.release.xcconfig"; sourceTree = "<group>"; };
+		8F14E84868308461A952B18C /* Pods-checkweightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweightTests.debug.xcconfig"; path = "Target Support Files/Pods-checkweightTests/Pods-checkweightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A36032F963120D9F51DCC6F /* Pods-checkweight-checkweightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweight-checkweightUITests.debug.xcconfig"; path = "Target Support Files/Pods-checkweight-checkweightUITests/Pods-checkweight-checkweightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0774C953466D39D52515B1B /* Pods-checkweight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkweight.debug.xcconfig"; path = "Target Support Files/Pods-checkweight/Pods-checkweight.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE56A26CFB50E93AFE7A0F8 /* Pods_checkweight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkweight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA7EACB27961FEEF2636CBF /* Pods_checkweight_checkweightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkweight_checkweightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B8F58B26D7ECA700336E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DC004ACD61CFCB87A764EA /* Pods_checkweight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5A126D7ECAB00336E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FBAA4F85A6FD48B3D64D4E /* Pods_checkweightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5AC26D7ECAB00336E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DECC077A76C3C4297CD94E /* Pods_checkweight_checkweightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B8F58526D7ECA700336E4B = {
+			isa = PBXGroup;
+			children = (
+				60B8F59026D7ECA700336E4B /* checkweight */,
+				60B8F5A726D7ECAB00336E4B /* checkweightTests */,
+				60B8F5B226D7ECAB00336E4B /* checkweightUITests */,
+				60B8F58F26D7ECA700336E4B /* Products */,
+				D38E0829CBF2D59F0A3D2D2C /* Pods */,
+				BAE654DE23435100C4C2701C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60B8F58F26D7ECA700336E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B8F58E26D7ECA700336E4B /* checkweight.app */,
+				60B8F5A426D7ECAB00336E4B /* checkweightTests.xctest */,
+				60B8F5AF26D7ECAB00336E4B /* checkweightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B8F59026D7ECA700336E4B /* checkweight */ = {
+			isa = PBXGroup;
+			children = (
+				60B8F59126D7ECA700336E4B /* AppDelegate.swift */,
+				60B8F59326D7ECA700336E4B /* SceneDelegate.swift */,
+				60B8F59526D7ECA700336E4B /* ViewController.swift */,
+				60B8F59726D7ECA700336E4B /* Main.storyboard */,
+				60B8F59A26D7ECAB00336E4B /* Assets.xcassets */,
+				60B8F59C26D7ECAB00336E4B /* LaunchScreen.storyboard */,
+				60B8F59F26D7ECAB00336E4B /* Info.plist */,
+			);
+			path = checkweight;
+			sourceTree = "<group>";
+		};
+		60B8F5A726D7ECAB00336E4B /* checkweightTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B8F5A826D7ECAB00336E4B /* checkweightTests.swift */,
+				60B8F5AA26D7ECAB00336E4B /* Info.plist */,
+			);
+			path = checkweightTests;
+			sourceTree = "<group>";
+		};
+		60B8F5B226D7ECAB00336E4B /* checkweightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B8F5B326D7ECAB00336E4B /* checkweightUITests.swift */,
+				60B8F5B526D7ECAB00336E4B /* Info.plist */,
+			);
+			path = checkweightUITests;
+			sourceTree = "<group>";
+		};
+		BAE654DE23435100C4C2701C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE56A26CFB50E93AFE7A0F8 /* Pods_checkweight.framework */,
+				FBA7EACB27961FEEF2636CBF /* Pods_checkweight_checkweightUITests.framework */,
+				216BD765F56BA2EB90967463 /* Pods_checkweightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38E0829CBF2D59F0A3D2D2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0774C953466D39D52515B1B /* Pods-checkweight.debug.xcconfig */,
+				87D9144DE441FDC482B99878 /* Pods-checkweight.release.xcconfig */,
+				9A36032F963120D9F51DCC6F /* Pods-checkweight-checkweightUITests.debug.xcconfig */,
+				28E01F31658119DDB97D4B82 /* Pods-checkweight-checkweightUITests.release.xcconfig */,
+				8F14E84868308461A952B18C /* Pods-checkweightTests.debug.xcconfig */,
+				674703D1EE1F4A2BB39F5505 /* Pods-checkweightTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B8F58D26D7ECA700336E4B /* checkweight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B8F5B826D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweight" */;
+			buildPhases = (
+				928BD4BF3C115C5553DDB84F /* [CP] Check Pods Manifest.lock */,
+				60B8F58A26D7ECA700336E4B /* Sources */,
+				60B8F58B26D7ECA700336E4B /* Frameworks */,
+				60B8F58C26D7ECA700336E4B /* Resources */,
+				2F4CC8065082CD5E89EA11A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = checkweight;
+			productName = checkweight;
+			productReference = 60B8F58E26D7ECA700336E4B /* checkweight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B8F5A326D7ECAB00336E4B /* checkweightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B8F5BB26D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweightTests" */;
+			buildPhases = (
+				42477808347E3F2CB041E206 /* [CP] Check Pods Manifest.lock */,
+				60B8F5A026D7ECAB00336E4B /* Sources */,
+				60B8F5A126D7ECAB00336E4B /* Frameworks */,
+				60B8F5A226D7ECAB00336E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B8F5A626D7ECAB00336E4B /* PBXTargetDependency */,
+			);
+			name = checkweightTests;
+			productName = checkweightTests;
+			productReference = 60B8F5A426D7ECAB00336E4B /* checkweightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B8F5AE26D7ECAB00336E4B /* checkweightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B8F5BE26D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweightUITests" */;
+			buildPhases = (
+				3070BC0CE333D4BD2A4A2AEF /* [CP] Check Pods Manifest.lock */,
+				60B8F5AB26D7ECAB00336E4B /* Sources */,
+				60B8F5AC26D7ECAB00336E4B /* Frameworks */,
+				60B8F5AD26D7ECAB00336E4B /* Resources */,
+				8ECB8B36C9AF0D310D4098DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B8F5B126D7ECAB00336E4B /* PBXTargetDependency */,
+			);
+			name = checkweightUITests;
+			productName = checkweightUITests;
+			productReference = 60B8F5AF26D7ECAB00336E4B /* checkweightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B8F58626D7ECA700336E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					60B8F58D26D7ECA700336E4B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					60B8F5A326D7ECAB00336E4B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 60B8F58D26D7ECA700336E4B;
+					};
+					60B8F5AE26D7ECAB00336E4B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 60B8F58D26D7ECA700336E4B;
+					};
+				};
+			};
+			buildConfigurationList = 60B8F58926D7ECA700336E4B /* Build configuration list for PBXProject "checkweight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B8F58526D7ECA700336E4B;
+			productRefGroup = 60B8F58F26D7ECA700336E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B8F58D26D7ECA700336E4B /* checkweight */,
+				60B8F5A326D7ECAB00336E4B /* checkweightTests */,
+				60B8F5AE26D7ECAB00336E4B /* checkweightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B8F58C26D7ECA700336E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B8F59E26D7ECAB00336E4B /* LaunchScreen.storyboard in Resources */,
+				60B8F59B26D7ECAB00336E4B /* Assets.xcassets in Resources */,
+				60B8F59926D7ECA700336E4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5A226D7ECAB00336E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5AD26D7ECAB00336E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F4CC8065082CD5E89EA11A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-checkweight/Pods-checkweight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-checkweight/Pods-checkweight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-checkweight/Pods-checkweight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3070BC0CE333D4BD2A4A2AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-checkweight-checkweightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42477808347E3F2CB041E206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-checkweightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECB8B36C9AF0D310D4098DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-checkweight-checkweightUITests/Pods-checkweight-checkweightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-checkweight-checkweightUITests/Pods-checkweight-checkweightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-checkweight-checkweightUITests/Pods-checkweight-checkweightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928BD4BF3C115C5553DDB84F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-checkweight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B8F58A26D7ECA700336E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B8F59626D7ECA700336E4B /* ViewController.swift in Sources */,
+				60B8F59226D7ECA700336E4B /* AppDelegate.swift in Sources */,
+				60B8F59426D7ECA700336E4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5A026D7ECAB00336E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B8F5A926D7ECAB00336E4B /* checkweightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B8F5AB26D7ECAB00336E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B8F5B426D7ECAB00336E4B /* checkweightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B8F5A626D7ECAB00336E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B8F58D26D7ECA700336E4B /* checkweight */;
+			targetProxy = 60B8F5A526D7ECAB00336E4B /* PBXContainerItemProxy */;
+		};
+		60B8F5B126D7ECAB00336E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B8F58D26D7ECA700336E4B /* checkweight */;
+			targetProxy = 60B8F5B026D7ECAB00336E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B8F59726D7ECA700336E4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B8F59826D7ECA700336E4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60B8F59C26D7ECAB00336E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B8F59D26D7ECAB00336E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B8F5B626D7ECAB00336E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60B8F5B726D7ECAB00336E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B8F5B926D7ECAB00336E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0774C953466D39D52515B1B /* Pods-checkweight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B8F5BA26D7ECAB00336E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D9144DE441FDC482B99878 /* Pods-checkweight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60B8F5BC26D7ECAB00336E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F14E84868308461A952B18C /* Pods-checkweightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkweight.app/checkweight";
+			};
+			name = Debug;
+		};
+		60B8F5BD26D7ECAB00336E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674703D1EE1F4A2BB39F5505 /* Pods-checkweightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkweight.app/checkweight";
+			};
+			name = Release;
+		};
+		60B8F5BF26D7ECAB00336E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A36032F963120D9F51DCC6F /* Pods-checkweight-checkweightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = checkweight;
+			};
+			name = Debug;
+		};
+		60B8F5C026D7ECAB00336E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E01F31658119DDB97D4B82 /* Pods-checkweight-checkweightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KU8678MJM;
+				INFOPLIST_FILE = checkweightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.checkweightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = checkweight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B8F58926D7ECA700336E4B /* Build configuration list for PBXProject "checkweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B8F5B626D7ECAB00336E4B /* Debug */,
+				60B8F5B726D7ECAB00336E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B8F5B826D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B8F5B926D7ECAB00336E4B /* Debug */,
+				60B8F5BA26D7ECAB00336E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B8F5BB26D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B8F5BC26D7ECAB00336E4B /* Debug */,
+				60B8F5BD26D7ECAB00336E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B8F5BE26D7ECAB00336E4B /* Build configuration list for PBXNativeTarget "checkweightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B8F5BF26D7ECAB00336E4B /* Debug */,
+				60B8F5C026D7ECAB00336E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B8F58626D7ECA700336E4B /* Project object */;
+}
