@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var MainLabel: UILabel!
     
+    @IBOutlet weak var btn2: UIButton!
     @IBOutlet weak var btn: UIButton!
     @IBOutlet weak var chart: LineChartView!
 
